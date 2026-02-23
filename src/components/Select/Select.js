@@ -54,7 +54,11 @@ const PresentationalBit = styled.div`
   }
 
   ${NativeSelect}:focus + & {
-    outline: 2px solid #4374cb;
+    outline: 2px solid;
+    outline-offset: 2px;
+    outline-color: #4374cb;
+    outline-color: Highlight;
+    outline-color: -webkit-focus-ring-color;
   }
 `;
 
